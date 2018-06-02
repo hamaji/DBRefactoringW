@@ -1,0 +1,40 @@
+﻿.body {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*** Field ***/
+.svg_area {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: dashed 5px #000;
+}
+
+.svg_area2 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: dashed 5px #000;
+}
+/*** Force layout ***/
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
+
+.node text {
+    font: 24px corbel;
+}
+
+
+/* float left解除 */
+.clear {
+    clear: both;
+}
